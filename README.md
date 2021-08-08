@@ -44,3 +44,5 @@ For more detail about each of these steps, see the project lesson [here](https:/
 4. https://stackoverflow.com/questions/63313662/unable-to-create-aws-eks-cluster-with-eksctl
 5. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/ 
 6. https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
+
+---
