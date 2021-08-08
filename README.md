@@ -45,4 +45,11 @@ For more detail about each of these steps, see the project lesson [here](https:/
 5. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/ 
 6. https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
 
----
+
+## Issues
+getting error while using code build from AWS
+
+Step 1/6 : FROM python:stretch
+toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit
+
+----
