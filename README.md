@@ -6,9 +6,9 @@ In this project you will containerize and deploy a Flask API to a Kubernetes clu
 
 The Flask app that will be used for this project consists of a simple API with three endpoints:
 
-- `GET '/'`: This is a simple health check, which returns the response 'Healthy'. 
+- `GET '/'`: This is a simple health check, which returns the response 'Healthy'.
 - `POST '/auth'`: This takes a email and password as json arguments and returns a JWT based on a custom secret.
-- `GET '/contents'`: This requires a valid JWT, and returns the un-encrpyted contents of that token. 
+- `GET '/contents'`: This requires a valid JWT, and returns the un-encrpyted contents of that token.
 
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
@@ -23,7 +23,7 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
     - For Mac users, if you have no previous Docker Toolbox installation, you can install Docker Desktop for Mac. If you already have a Docker Toolbox installation, please read [this](https://docs.docker.com/docker-for-mac/docker-toolbox/) before installing.
  - AWS Account
      - You can create an AWS account by signing up [here](https://aws.amazon.com/#).
-     
+
 ## Project Steps
 
 Completing the project involves several steps:
@@ -42,9 +42,12 @@ For more detail about each of these steps, see the project lesson [here](https:/
 2. https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
 3. https://eksctl.io/
 4. https://stackoverflow.com/questions/63313662/unable-to-create-aws-eks-cluster-with-eksctl
-5. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/ 
+5. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 6. https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
 
+reg the docker throttling AWS issue:
+7. https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim
+8. https://knowledge.udacity.com/questions/662315
 
 ## Issues
 getting error while using code build from AWS
