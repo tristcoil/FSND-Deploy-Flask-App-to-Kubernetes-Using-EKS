@@ -52,7 +52,7 @@ reg. the docker throttling AWS issue:
 10. https://cloudkatha.com/too-many-requests-you-reached-pull-rate-limit/
 11. https://aws.amazon.com/premiumsupport/knowledge-center/codebuild-docker-pull-image-error/
 
-
+ 
 ## Issues
 getting error while using code build from AWS
 
