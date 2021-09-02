@@ -38,16 +38,20 @@ Completing the project involves several steps:
 For more detail about each of these steps, see the project lesson [here](https://classroom.udacity.com/nanodegrees/nd004/parts/1d842ebf-5b10-4749-9e5e-ef28fe98f173/modules/ac13842f-c841-4c1a-b284-b47899f4613d/lessons/becb2dac-c108-4143-8f6c-11b30413e28d/concepts/092cdb35-28f7-4145-b6e6-6278b8dd7527).
 
 ## Sources
-1. https://docs.docker.com/engine/install/ubuntu/
-2. https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
-3. https://eksctl.io/
-4. https://stackoverflow.com/questions/63313662/unable-to-create-aws-eks-cluster-with-eksctl
-5. https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-6. https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
+1.  https://docs.docker.com/engine/install/ubuntu/
+2.  https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+3.  https://eksctl.io/
+4.  https://stackoverflow.com/questions/63313662/unable-to-create-aws-eks-cluster-with-eksctl
+5.  https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+6.  https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
 
-reg the docker throttling AWS issue:
-7. https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim
-8. https://knowledge.udacity.com/questions/662315
+reg. the docker throttling AWS issue:
+7.  https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim
+8.  https://knowledge.udacity.com/questions/662315
+9.  https://www.docker.com/increase-rate-limit
+10. https://cloudkatha.com/too-many-requests-you-reached-pull-rate-limit/
+11. https://aws.amazon.com/premiumsupport/knowledge-center/codebuild-docker-pull-image-error/
+
 
 ## Issues
 getting error while using code build from AWS
