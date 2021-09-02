@@ -44,6 +44,7 @@ For more detail about each of these steps, see the project lesson [here](https:/
 4.  https://stackoverflow.com/questions/63313662/unable-to-create-aws-eks-cluster-with-eksctl
 5.  https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 6.  https://stackoverflow.com/questions/44017410/signature-expired-is-now-earlier-than-error-invalidsignatureexception
+7.  https://knowledge.udacity.com/questions/105230
 
 reg. the docker throttling AWS issue:
 7.  https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim
@@ -52,7 +53,7 @@ reg. the docker throttling AWS issue:
 10. https://cloudkatha.com/too-many-requests-you-reached-pull-rate-limit/
 11. https://aws.amazon.com/premiumsupport/knowledge-center/codebuild-docker-pull-image-error/
 
- 
+
 ## Issues
 getting error while using code build from AWS
 
